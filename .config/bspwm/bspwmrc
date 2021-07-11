@@ -3,6 +3,7 @@
 # Start sxhkd
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+# bspwm configuration
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         2
@@ -22,11 +23,11 @@ bspc rule -a xfce4-terminal state=floating
 bspc rule -a Zathura state=tiled
 bpsc rule -a librewolf state=floating
 
-# -- Set Wallpaper --
-
+# Set Wallpaper
 xwallpaper --zoom ~/.config/wallpaper
 
-# -- Autostarts --
+# Autostarts
+xsetroot -cursor_name left_ptr
 
 polybar example &
 

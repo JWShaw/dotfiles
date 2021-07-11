@@ -28,9 +28,9 @@ XF86AudioMute
 
 # screenshots
 super + Print
-        maim -s ~/Pictures/$(date +%s).png
+        maim -s $(xdg-user-dir PICTURES)/maim-$(date +%s).png
 Print
-        maim ~/Pictures/$(date +%s).png 
+        maim $(xdg-user-dir PICTURES)/maim-$(date +%s).png
 
 #
 # bspwm hotkeys

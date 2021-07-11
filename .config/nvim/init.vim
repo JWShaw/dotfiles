@@ -1,5 +1,5 @@
 " Plugins
-call plug#begin('~/local/share/nvim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
   " Code plugins:
 "  Plug 'neoclide/coc.nvim', {'branch': 'release'}
   
