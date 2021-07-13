@@ -30,9 +30,7 @@ xsetroot -cursor_name left_ptr
 
 polybar example &
 
-killall redshift&
+killall redshift &
 redshift &
-
-picom --backend glx --vsync --config /dev/null &
 
 nm-applet &
