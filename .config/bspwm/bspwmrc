@@ -19,7 +19,6 @@ bspc config gapless_monocle      true
 # bspc rule -a Kupfer.py focus=on
 # bspc rule -a Screenkey manage=off
 bspc rule -a keepassxc state=floating
-bspc rule -a xfce4-terminal state=floating
 bspc rule -a Zathura state=tiled
 bpsc rule -a librewolf state=floating
 
@@ -34,6 +33,6 @@ polybar example &
 killall redshift&
 redshift &
 
-picom &
+picom --backend glx --vsync &
 
 nm-applet &
