@@ -33,6 +33,6 @@ polybar example &
 killall redshift&
 redshift &
 
-picom --backend glx --vsync &
+picom --backend glx --vsync --config /dev/null &
 
 nm-applet &
