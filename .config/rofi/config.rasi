@@ -1,3 +1,4 @@
 configuration {
+        modi: "run,drun";
 	theme: "~/.config/rofi/themes/topbar.rasi";
 }

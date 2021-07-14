@@ -7,8 +7,8 @@ super + Return
 	alacritty
 
 # program launcher
-super + @space
-	rofi -show run
+super + {_,shift + } @space
+	rofi -show {drun, run}
 
 super + x
         keepassxc
