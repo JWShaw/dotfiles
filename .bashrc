@@ -9,6 +9,9 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 source /usr/share/nvm/init-nvm.sh
 
+export EDITOR='nvim'
+export VISUAL='nvim'
+
 #
 # # ex - archive extractor
 # # usage: ex <file>
