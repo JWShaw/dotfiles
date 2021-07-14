@@ -1,12 +1,11 @@
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
-  " Code plugins:
-"  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  
   Plug 'vimwiki/vimwiki'
   Plug 'junegunn/goyo.vim'
   Plug 'junegunn/limelight.vim'
-  Plug 'itchyny/calendar.vim'
+  Plug 'scrooloose/nerdtree'
+  Plug 'tpope/vim-commentary'
+  Plug 'tpope/vim-surround'
 call plug#end()
 
 " Vimwiki prerequisites
@@ -24,6 +23,9 @@ let g:vimwiki_list = [{
 
 " Goyo and Limelight
 let g:limelight_conceal_ctermfg = 240
+
+" NERDTree
+nmap <C-f> :NERDTreeToggle<CR>
 
 " LaTeX Compilation
 map <Leader>ll :!pdflatex %:p
